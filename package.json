@@ -1,12 +1,17 @@
 {
   "name": "coding-session-tracker",
   "displayName": "Coding Session Tracker",
-  "description": "Tracks how long you code and shows it in the sidebar",
-  "version": "0.0.1",
+  "description": "Tracks how long you code and shows it in the sidebar. Helps you build a consistent coding habit.",
+  "version": "1.0.0",
   "publisher": "Abhijat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abhijat-Abhijat/coding-session-tracker"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
+  "icon": "media/icon.png",
   "categories": [
     "Other"
   ],
