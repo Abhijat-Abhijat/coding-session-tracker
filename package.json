@@ -1,0 +1,47 @@
+{
+  "name": "coding-session-tracker",
+  "displayName": "Coding Session Tracker",
+  "description": "Tracks how long you code and shows it in the sidebar",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:codingTrackerView"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codingTracker",
+          "title": "Coding Time",
+          "icon": "media/clock.svg"
+        }
+      ]
+    },
+    "views": {
+      "codingTracker": [
+        {
+          "id": "codingTrackerView",
+          "name": "Clock",
+              "type": "webview"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.0.0"
+  }
+}
