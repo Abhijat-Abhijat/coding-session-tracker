@@ -3,7 +3,7 @@
   "displayName": "Coding Session Tracker",
   "description": "Tracks how long you code and shows it in the sidebar",
   "version": "0.0.1",
-  "publisher": "your-publisher-name",
+  "publisher": "Abhijat",
   "engines": {
     "vscode": "^1.85.0"
   },
